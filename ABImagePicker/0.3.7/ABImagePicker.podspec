@@ -26,4 +26,5 @@ Pod::Spec.new do |s|
   s.dependency 'ABExposureCalculator'
   
   s.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'ISHPermissionRequestCameraEnabled ISHPermissionRequestPhotoLibraryEnabled' }
+  s.deprecated = true
 end
